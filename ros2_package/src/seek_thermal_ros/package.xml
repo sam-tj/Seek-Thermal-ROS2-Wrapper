@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>seek_thermal_ros</name>
+  <version>1.0.0</version>
+  <description>Seek Thermal Camera Ros2 Wrapper</description>
+  <maintainer email="sameer.tuteja05@gmail.com">Sameer Tuteja</maintainer>
+  <license>CDDL-1.0</license>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
