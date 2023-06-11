@@ -27,4 +27,4 @@ Change colorPalette using args: **--ros-args -p colorPalette:=value **
 
 Sample image
 
-    ![Sample RVIZ2](extras/images/sample_rviz2.png?raw=true "Sample RVIZ2")
+![Sample RVIZ2](extras/images/sample_rviz2.png?raw=true "Sample RVIZ2")
