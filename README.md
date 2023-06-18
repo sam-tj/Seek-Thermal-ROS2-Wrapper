@@ -12,7 +12,7 @@ Build ROS package
 
     ros2 run seek_thermal_ros thermal_publisher
 
-Change colorPalette using args: **--ros-args -p colorPalette:=value **
+Change colorPalette using args: **--ros-args -p colorPalette:=value ** replace value with options mentioned below!
 
     Available options:
         - WHITE_HOT
@@ -24,6 +24,15 @@ Change colorPalette using args: **--ros-args -p colorPalette:=value **
         - AMBER
         - HI
         - GREEN
+
+Change rotationValue using args: **--ros-args -p rotationValue:=value ** replace value with options mentioned below!
+
+    Available options:
+        - 0
+        - 90 -- Default
+        - 180
+        - 270
+        - 360
 
 Sample image
 
