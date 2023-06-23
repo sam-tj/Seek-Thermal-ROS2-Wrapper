@@ -14,7 +14,7 @@ def generate_launch_description():
             name='thermal_republish',
             arguments=[  
                 'raw',
-                'raw'
+                'compressed'
             ],
             remappings=[
                 ('in', '/thermalImage'),
